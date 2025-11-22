@@ -8,15 +8,15 @@ function App() {
 
   return;
   <>
-    <Header />
-    <Nav />
+    {/*<Header />*/}
+    {/*<Nav />*/}
 
     <div>
-      <Aside />
-      <Main />
+      {/*<Aside />*/}
+      <Home />
     </div>
 
-    <Footer />
+    {/*<Footer />*/}
   </>;
 }
 
