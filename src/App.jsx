@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Home from "./pages/Home";
 import Logo from "./assets/logo.png";
-import "./App.jsx";
+import "./App.css";
 import Counter from "./components/common/Counter";
 
 function App() {
