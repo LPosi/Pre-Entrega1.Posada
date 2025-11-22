@@ -7,15 +7,13 @@ const Counter = () => {
   };
 
   const restar = () => {
-    setNum(num - 1);
+    if (num > 0) setNum(num - 1);
   };
 
   return (
     <div>
-      <button style={{ backgroundColor: "gray" }} onClick={restar}>
-        -
-      </button>
-      <input type="text" value={num}></input>
+      <Button text="-" callback={restar} />
+      <input type="text" value={num} />
       <button style={{ backgroundColor: "gray" }} onClick={sumar}>
         +
       </button>
