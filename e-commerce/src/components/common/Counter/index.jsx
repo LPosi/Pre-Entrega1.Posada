@@ -1,9 +1,12 @@
+import { useState } from "react";
+
 const Counter = () => {
+  const [num, setNum] = useState(0);
   return (
     <div>
-      <button>-</button>
-      <input type="text" value={0}></input>
-      <button>+</button>
+      <button style={{ backgroundColor: "gray" }}>-</button>
+      <input type="text" value={num}></input>
+      <button style={{ backgroundColor: "gray" }}>+</button>
     </div>
   );
 };
